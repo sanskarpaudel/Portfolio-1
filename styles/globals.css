@@ -27,7 +27,7 @@
   --foreground: #ededed;
 }
 
-/* ✅ Hide bottom-left "N" (Vercel/Next.js button or overlay) */
+
 #__next-build-watcher,
 .nextjs-overlay,
 #__vercel,
