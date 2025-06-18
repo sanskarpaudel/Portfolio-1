@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="bg-[var(--background)] text-[var(--foreground)] min-h-screen w-full transition-colors duration-300">
+    <div className="flex flex-col min-h-screen bg-[var(--background)] text-[var(--foreground)] transition-colors duration-300">
       <Head>
         <title>Sanskar Paudel | Portfolio</title>
         <meta
@@ -19,7 +19,7 @@ export default function Home() {
 
       <Navbar />
 
-      <main className="flex items-center justify-center px-4 py-20">
+      <main className="flex-grow flex items-center justify-center px-4 py-20">
         <motion.div
           className="max-w-6xl w-full flex flex-col md:flex-row items-center justify-center gap-12 text-center md:text-left"
           initial={{ opacity: 0, y: 30 }}
