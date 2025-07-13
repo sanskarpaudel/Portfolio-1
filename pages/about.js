@@ -40,7 +40,7 @@ export default function About() {
         </motion.p>
 
         <a
-          href="/Sanskar_Paudel_Resume.pdf"
+          href="/sanskarpaudel_resume.pdf"
           download
           className="inline-block mt-4 px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition"
         >
